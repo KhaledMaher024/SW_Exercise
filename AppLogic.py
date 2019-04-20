@@ -62,10 +62,6 @@ def groupBy(dataFrame):
 
 
 
-
-
-
-
 # tobacco
 def removeFromList(data):
     indexes = []
@@ -99,4 +95,3 @@ def removeFromList2(data):
 # cancer
 def mergeDF(firstDf,secondeDf,cols):
  return pd.merge(firstDf, secondeDf, on=cols)
-

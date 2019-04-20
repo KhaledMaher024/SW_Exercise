@@ -13,5 +13,5 @@ cancer_list = app.sort(cancer_list, "Year")
 
 merged_df = app.mergeDF(tobaccoList , cancer_list,['Year'])
 merged_df.drop("States" , axis=1 , inplace=True)
-
+print(merged_df)
 merged_df.to_csv('transformed.csv')
